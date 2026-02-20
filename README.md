@@ -2,6 +2,14 @@
 
 A modern web application showcasing a PDF viewer frontend design built with PDF.js. This project demonstrates a clean, user-friendly interface for viewing PDF documents in a web browser.
 
+<p align="center">
+  <img src="assets/forestViewer.gif" alt="ForestViewer Demonstration">
+</p>
+
+You can visit the live application at: [https://reneang17.github.io/forestViewer/](https://reneang17.github.io/forestViewer/)
+
+There you will find not only a viewer on the browser but helpful navigation, mouse pad and touch gestures work on the canvas, and you can search for information about the verses, etc.
+
 ## Features
 
 - Interactive PDF viewing with navigation controls
