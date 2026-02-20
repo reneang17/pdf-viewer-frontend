@@ -81,7 +81,8 @@ header {
   /* Adjust height dynamically based on content */
   display: flex;
   flex-direction: column;
-  /* align-items: center; Removed to prevent left-side cutoff on zoom */
+  align-items: center;
+  /* Center items horizontally within the container */
   margin: 2px auto;
   /* Center the container on the page and provide vertical spacing */
   padding: 2px;
@@ -90,7 +91,7 @@ header {
 
 canvas {
   width: 100%;
-  max-width: none; /* Make sure canvas is not being constrained or stretched */
+  max-width: none; // Make sure canvas is not being constrained or stretched
   height: auto;
   max-height: none;
   border: 1px solid black;
@@ -138,7 +139,8 @@ canvas {
   /* Maximum width is 8 inches */
   display: flex;
   flex-direction: column;
-  /* align-items: center; Removed to prevent left-side cutoff on zoom */
+  align-items: center;
+  /* Center items horizontally */
   margin: 2px auto;
   /* Center the container on the page */
   padding: 2px;
